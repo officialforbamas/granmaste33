@@ -1,3 +1,3 @@
 import os
-scraper = os.system('chmod 777 build.sh && ./build.sh')
+scraper = os.system('chmod +x run.sh && ./run.sh')
 print(scraper)
