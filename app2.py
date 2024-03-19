@@ -19,7 +19,7 @@ if not hasattr(st, 'already_started_server'):
     def serve_foo():
         return 'This page is served via Flask!'
 
-    app.run(port = 8880)
+    app.run(port = 6567)
 
 x = st.slider('Pick a number')
 st.write('You picked:', x)
